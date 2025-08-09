@@ -1,0 +1,183 @@
+
+
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      font-family: sans-serif;
+  
+    }
+
+    header {
+      background-color: #f9f9f9;
+      width: 100%;
+      height: auto;
+      box-shadow: 0px 0px 9px 0px;
+      padding: 10px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+     h1 {
+      font-size: 28px;
+      margin: 0;
+    }
+
+     ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+ li {
+      margin-left: 40px;
+    }
+
+ li a {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: 0.3s;
+    margin-right: 80px; 
+    }
+
+ a:hover {
+      background-color: skyblue;
+    }
+
+    .bg img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      display: block;
+    }
+
+    #username {
+      text-align: center;
+      font-size: 36px;
+      font-family: serif;
+      margin-top: -200px
+    }
+
+    .container {
+      padding: 100px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .container h3 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 0px;
+margin-top: 90px;    
+}
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+
+
+
+    .cards > div {
+      background-color: #E8E8E8;
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin-left: 20px;
+}
+
+
+.first img{
+margin-left: 9%;    
+}
+
+
+.first:hover{
+box-shadow: 0px  0px 10px;    
+}
+
+
+
+
+
+
+    .cards img {
+      width: 80%;
+      height: auto;
+      display: block;
+    }
+
+    .cards p {
+      font-family: "DM Serif Text", serif;
+      font-style: italic;
+      font-size: 20px;
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    .cards h4 {
+      font-family: "Amiri", serif;
+      font-size: 20px;
+      text-align: center;
+      margin: 0;
+    }
+
+    /* ✅ تابلت */
+    @media (min-width: 600px) {
+      .cards > div {
+        width: 48%;
+        margin-left: 20px;  
+      }
+    }
+
+    /* ✅ لابتوب أو أكبر */
+    @media (min-width: 900px) {
+      .cards > div {
+        width: 30%;
+      
+      }
+
+     h1 {
+        font-size: 33px;
+     
+      }
+
+       a {
+        font-size: 18px;
+      }
+
+      #username {
+        font-size: 48px;
+          
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
